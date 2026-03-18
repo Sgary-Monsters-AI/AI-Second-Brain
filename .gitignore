@@ -1,0 +1,30 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 归档目录（不需要版本控制）
+_Archive/
+**/_Archive/
+
+# 私有数据（用户自行决定是否提交）
+.env
+.env.local
+config.local.yml
+
+# 大文件
+*.zip
+*.tar.gz
+*.mp4
+*.mov
