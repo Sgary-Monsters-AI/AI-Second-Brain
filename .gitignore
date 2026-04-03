@@ -28,3 +28,10 @@ config.local.yml
 *.tar.gz
 *.mp4
 *.mov
+
+# 开发者工具（仅本地使用，不发布）
+/dev-tools/
+/.claude/skills/generate-changelog.md
+
+# 用户安装时自动生成的文件
+使用指南.md
