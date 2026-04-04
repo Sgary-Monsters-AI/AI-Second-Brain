@@ -52,6 +52,10 @@ if [ ! -d "$INSTALL_DIR/.git" ]; then
     git clone "$REPO_URL" "$INSTALL_DIR"
 
     cd "$INSTALL_DIR"
+
+    # 禁用 push —— 用户端只能拉取更新，不能推送到上游仓库
+    git remote set-url --push origin PUSH_DISABLED_USE_UPDATE_SH_INSTEAD
+
     VERSION=$(cat VERSION 2>/dev/null || echo "1.0.0")
 
     echo ""
@@ -78,6 +82,12 @@ fi
 # ----------------------------------------------------------------------
 cd "$INSTALL_DIR"
 echo -e "${CYAN}▶ 检查系统更新...${NC}"
+
+# 确保 push 已禁用（用户端只能拉取，不能推送到上游仓库）
+PUSH_URL=$(git remote get-url --push origin 2>/dev/null || echo "")
+if [[ "$PUSH_URL" != "PUSH_DISABLED_USE_UPDATE_SH_INSTEAD" ]]; then
+    git remote set-url --push origin PUSH_DISABLED_USE_UPDATE_SH_INSTEAD
+fi
 
 # 获取本地版本
 LOCAL_VERSION=$(cat VERSION 2>/dev/null || echo "0.0.0")

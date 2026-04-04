@@ -134,6 +134,12 @@ main() {
     REMOTE=$(git remote 2>/dev/null | head -1 || echo "origin")
     BRANCH=$(git branch --show-current 2>/dev/null || echo "main")
 
+    # 确保 push 已禁用（用户端只能拉取，不能推送到上游仓库）
+    PUSH_URL=$(git remote get-url --push "$REMOTE" 2>/dev/null || echo "")
+    if [[ "$PUSH_URL" != "PUSH_DISABLED_USE_UPDATE_SH_INSTEAD" ]]; then
+        git remote set-url --push "$REMOTE" PUSH_DISABLED_USE_UPDATE_SH_INSTEAD
+    fi
+
     # 拉取最新代码
     log_info "正在从 $REMOTE/$BRANCH 拉取最新版本..."
     echo ""
