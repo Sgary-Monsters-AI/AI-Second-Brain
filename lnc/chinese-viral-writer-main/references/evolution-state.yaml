@@ -1,0 +1,651 @@
+meta:
+  version: 1.0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_updated: '2026-01-13T10:08:19.234848'
+  total_episodes: 7
+  consolidation_count: 0
+  next_consolidation_at: 10
+  cold_start: false
+rules:
+- id: rule_001
+  category: 张力场
+  content: 寻找宏大叙事与个体真实之间的张力
+  priority: high
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 「能写代码的程序员」vs.「有判断力的程序员」
+    bad: []
+- id: rule_002
+  category: 众生相
+  content: 使用群体标签+日常场景+真实行为构建众生相，需要具体细节
+  priority: high
+  score: 0.62
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 2
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 写了十年后端的朋友，看实习生用 Claude 半小时搞定他要写两天的功能
+    - 大三学弟，LeetCode 刷了三百道，问我学的这些毕业还有用吗
+    bad:
+    - 泛泛的群体描写，缺乏具体场景和细节
+- id: rule_003
+  category: 情绪扳机
+  content: 情绪扳机要用总结性概括加带情绪的断言
+  priority: high
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 残酷吗？残酷。但这就是现实。
+    bad: []
+- id: rule_004
+  category: 时效性
+  content: 嫁接当下热点词汇增加时效性
+  priority: medium
+  score: 0.67
+  confidence: 0.86
+  applied_count: 6
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 用 Linus Torvalds 和 DHH 的最新言论作为引子
+    - 植入 vibe coding 热点关键词
+    bad: []
+- id: rule_005
+  category: 叙事
+  content: 必须使用第一人称「我」叙事
+  priority: high
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_006
+  category: 语气
+  content: 口语化表达，像和朋友深夜聊天，避免说教味和爹味
+  priority: high
+  score: 0.65
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 6
+  negative_feedback: 1
+  neutral: 3
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 开头不要用夸张的反应（如「差点咖啡喷出来」），要自然
+    - 以已经了解很久的视角切入，而不是第一次发现
+    bad:
+    - 说教味重，有种教你干嘛的感觉
+- id: rule_007
+  category: 结构
+  content: 跳跃式思维，避免首先其次的线性结构
+  priority: high
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_008
+  category: 节奏
+  content: 短句为主，几句话就分段
+  priority: high
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_009
+  category: 引导
+  content: 多用设问引导读者思考
+  priority: medium
+  score: 0.64
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 5
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_010
+  category: 金句
+  content: 金句要够狠，能让读者截图发朋友圈，用类比制造记忆点
+  priority: high
+  score: 0.69
+  confidence: 0.88
+  applied_count: 7
+  positive_feedback: 6
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 看健身视频不会让你变强壮
+    - 代码是 AI 写的，但骨架要人搭。方向错了，AI 跑得越快，死得越惨
+    - 不是被 AI 替代，是被会用 AI 的人替代
+    - 你的答案，就是你的护城河
+    bad: []
+- id: rule_011
+  category: 禁区
+  content: 禁止使用破折号、冒号、双引号
+  priority: high
+  score: 0.75
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 5
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_012
+  category: 禁区
+  content: 禁止使用首先、其次、此外、总而言之
+  priority: high
+  score: 0.75
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 5
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_013
+  category: 禁区
+  content: 禁止使用任何 Emoji
+  priority: high
+  score: 0.75
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 5
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_014
+  category: 禁区
+  content: 禁止学术腔和说教腔
+  priority: high
+  score: 0.75
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 5
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_015
+  category: 排版
+  content: 段落之间空一行，一段3-5行以内
+  priority: medium
+  score: 0.75
+  confidence: 0.75
+  applied_count: 3
+  positive_feedback: 3
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-11T16:34:10.332536'
+  last_applied: '2026-01-12T00:00:00'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_016
+  category: 标题策略
+  content: 断言+情绪结合型标题，用断言制造立场，用情绪词触发焦虑或好奇
+  priority: high
+  score: 0.62
+  confidence: 0.86
+  applied_count: 6
+  positive_feedback: 4
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-12T00:00:00'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - Linus 开始 vibe coding 了，你还在刷 LeetCode？
+    bad:
+    - 编程界的上帝都投降了，你还在背算法题？（营销味重）
+- id: rule_017
+  category: 信息来源
+  content: 引用权威人物时，注明具体态度和限定条件，避免断章取义
+  priority: high
+  score: 0.65
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 4
+  negative_feedback: 1
+  neutral: 0
+  created_at: '2026-01-12T00:00:00'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - Linus 说 vibe coding 不适合生产环境，只用于个人项目
+    - DHH 警告说 AI 可能侵蚀编程基本功
+    bad:
+    - 简单说「Linus 用 AI 写代码了」而不提限定条件
+- id: rule_018
+  category: 结尾策略
+  content: 断言+开放问题结合，先给出明确立场，再用开放问题引发读者思考和互动
+  priority: high
+  score: 0.62
+  confidence: 0.86
+  applied_count: 6
+  positive_feedback: 4
+  negative_feedback: 1
+  neutral: 1
+  created_at: '2026-01-12T00:00:00'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 该慌，但只有一种人该慌... 如果明天所有代码都可以自动生成了，你还能提供什么价值？你的答案，就是你的护城河。
+    bad: []
+- id: rule_019
+  category: 焦虑定位
+  content: 焦虑点要聚焦在「我」个人而非泛泛的「大部分人」
+  priority: high
+  score: 0.65
+  confidence: 0.83
+  applied_count: 5
+  positive_feedback: 4
+  negative_feedback: 1
+  neutral: 0
+  created_at: '2026-01-12T00:00:00'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good:
+    - 聚焦在「我会不会被淘汰」而非「大部分人在用旧技能」
+    bad:
+    - 真正让我焦虑的是大部分人还在用旧技能（和读者无关）
+- id: rule_020
+  category: 文章类型
+  content: 干货类文章（方法论、教程、工具介绍）：方法论和概念阐述优先于众生相，众生相可精简或省略
+  priority: medium
+  score: 0.75
+  confidence: 0.5
+  applied_count: 1
+  positive_feedback: 1
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-12T22:07:24.898203'
+  last_applied: '2026-01-13T10:08:13.962623'
+  parent_rule: null
+  child_rules: []
+  conditions: []
+  examples:
+    good: []
+    bad: []
+- id: rule_021
+  category: 人设一致性
+  content: 从「我」视角叙事时，必须保持人设和数据的一致性。作者人设是成功的独立开发者（副业年入200万、有盈利产品），不是失败者或迷茫者。如需描写失败/迷茫状态，用「朋友」或「以前的我」叙事
+  priority: high
+  score: 0.75
+  confidence: 0.5
+  applied_count: 1
+  positive_feedback: 1
+  negative_feedback: 0
+  neutral: 0
+  created_at: '2026-01-13T12:00:00'
+  last_applied: '2026-01-13T12:00:00'
+  parent_rule: rule_005
+  child_rules: []
+  conditions:
+  - 使用第一人称「我」叙事时
+  examples:
+    good:
+    - 用「朋友年薪百万，年度目标年年重来」开头，然后说「两年前的我也这样，后来辞职做独立开发，第一年副业做了200万」
+    - 将失败案例放在「朋友」身上，成功经验放在「我」身上
+    bad:
+    - 「我翻出去年的年度目标，发现和前年一模一样」（与成功独立开发者人设冲突）
+    - 用「我」描写反复失败、迷茫的状态
+episodes:
+- episode_id: ep_20260111_1f5e31
+  date: '2026-01-11T00:00:00'
+  mode: 原创
+  topic: 2026 年，为什么你最不应该做程序员
+  article_path: articles/2026-why-you-should-not-be-a-programmer.md
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_004
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_009
+  - rule_010
+  - rule_011
+  - rule_012
+  - rule_013
+  - rule_014
+  - rule_015
+  output_version: 1
+  revisions: 0
+  final_adopted: true
+  explicit_feedback:
+  - rule_id: rule_006
+    signal: 0.0
+    comment: 说教味有点重，带有爹味，有种我教你干嘛，你应该干嘛的感觉。而少了一些真实的感悟，个人经验的分享的真诚感，容易引起反感而不是共鸣
+    timestamp: '2026-01-11T16:54:31.834033'
+  - rule_id: rule_006
+    signal: 0.0
+    comment: 还是有贩卖焦虑和卖课的嫌疑。即使文章一上来就说不是贩卖焦虑，反而有一种此地无银三百两的感觉
+    timestamp: '2026-01-11T16:56:00.061038'
+  - rule_id: rule_006
+    signal: 1.0
+    comment: 张立场好。读者的评论反馈有说时代变了，有说说出自己心声的
+    timestamp: '2026-01-11T16:57:40.503273'
+  implicit_signals:
+    revision_count: 0
+    adopted: true
+  status: completed
+- episode_id: ep_20260112_vibe_coding
+  date: '2026-01-12T00:00:00'
+  mode: 原创
+  topic: Linus vibe coding / 程序员该不该慌
+  article_path: articles/2026-linus-vibe-coding.md
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_004
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_009
+  - rule_010
+  - rule_016
+  - rule_017
+  - rule_018
+  - rule_019
+  output_version: 6
+  revisions: 5
+  final_adopted: true
+  explicit_feedback:
+  - comment: 开头不自然，「差点咖啡喷出来」太做作
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 焦虑点要聚焦在个人而非大部分人
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 众生相需要更具体的场景和细节
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 标题要结合情绪和断言，从方法论角度选择
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 补充 Linus 和 DHH 的真实态度和限定条件
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 结尾要结合断言和开放问题
+    timestamp: '2026-01-12T00:00:00'
+  implicit_signals:
+    revision_count: 5
+    adopted: true
+  status: completed
+- episode_id: ep_20260112_money
+  date: '2026-01-12T00:00:00'
+  mode: 素材重构
+  topic: 没人教你赚钱，所有人都在教你怕穷
+  article_path: output/2026-01-12-没人教你赚钱/article.md
+  source_article: Forget about the money (Vas)
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_009
+  - rule_010
+  - rule_016
+  - rule_018
+  output_version: 2
+  revisions: 1
+  final_adopted: pending
+  explicit_feedback:
+  - comment: 开头压缩更快切入
+    signal: 0.5
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 穷人思维/富人思维改为省钱思维/赚钱思维，降低对立感
+    signal: 0.5
+    timestamp: '2026-01-12T00:00:00'
+  - comment: 补充巴菲特报税和收入分布数据
+    signal: 0.5
+    timestamp: '2026-01-12T00:00:00'
+  implicit_signals:
+    revision_count: 1
+    adopted: pending
+  status: in_progress
+- &id001
+  episode_id: ep_20260112_44f93a
+  date: '2026-01-12T00:00:00'
+  mode: 原创
+  topic: 没人教你赚钱，所有人都在教你怕穷
+  article_path: articles/2026-01-12-没人教你赚钱.md
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_004
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_009
+  - rule_010
+  - rule_011
+  - rule_012
+  - rule_013
+  - rule_014
+  - rule_015
+  - rule_016
+  - rule_017
+  - rule_018
+  - rule_019
+  output_version: 1
+  revisions: 0
+  final_adopted: true
+  explicit_feedback: []
+  implicit_signals:
+    revision_count: 0
+    adopted: true
+  status: completed
+- *id001
+- episode_id: ep_20260112_220708_3cb41d
+  date: '2026-01-12T22:07:08.688171'
+  mode: 原创
+  topic: 给我的I人程序员朋友们，如何用程序的方式创建高质量内容
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_010
+  - rule_011
+  - rule_012
+  - rule_013
+  - rule_014
+  - rule_016
+  - rule_017
+  - rule_018
+  - rule_019
+  - rule_009
+  - rule_004
+  output_version: 1
+  revisions: 0
+  final_adopted: true
+  explicit_feedback:
+  - rule_id: rule_010
+    signal: 1.0
+    comment: 金句密度和传播性都不错
+    timestamp: '2026-01-12T22:07:17.054455'
+  - rule_id: rule_002
+    signal: 0.0
+    comment: 干货类文章众生相不是必须，方法论阐述更重要
+    timestamp: '2026-01-12T22:07:18.279676'
+  implicit_signals:
+    revision_count: 0
+    adopted: true
+  status: completed
+- episode_id: ep_20260113_100813_f0359c
+  date: '2026-01-13T10:08:13.962623'
+  mode: 素材重构
+  topic: 2026年用一天时间搞清楚自己想要什么
+  rules_applied:
+  - rule_001
+  - rule_002
+  - rule_003
+  - rule_005
+  - rule_006
+  - rule_007
+  - rule_008
+  - rule_010
+  - rule_011
+  - rule_012
+  - rule_013
+  - rule_014
+  - rule_016
+  - rule_017
+  - rule_018
+  - rule_019
+  - rule_020
+  - rule_021
+  - rule_009
+  - rule_004
+  output_version: 2
+  revisions: 1
+  final_adopted: true
+  explicit_feedback:
+  - rule_id: rule_021
+    signal: 1.0
+    comment: 人设一致性问题。原第一章「我翻出去年的年度目标」与作者成功独立开发者人设冲突。修改为「朋友年薪百万，目标年年重来」+「两年前的我也这样，后来辞职做独立开发做了200万」，保持了人设一致性
+    timestamp: '2026-01-13T12:00:00'
+  - rule_id: rule_006
+    signal: 1.0
+    comment: 整体感觉不错，从「我」视角出发而不是说教味
+    timestamp: '2026-01-13T12:00:00'
+  implicit_signals:
+    revision_count: 1
+    adopted: true
+  status: completed
+pending_validation: []
+pending_removal: []
+exploration_queue: []
+ab_tests: []
+current_episode: null

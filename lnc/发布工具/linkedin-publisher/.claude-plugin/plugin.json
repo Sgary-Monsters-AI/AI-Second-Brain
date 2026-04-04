@@ -1,0 +1,22 @@
+{
+  "name": "linkedin-article-publisher",
+  "version": "1.0.0",
+  "description": "Publish Markdown articles to LinkedIn Articles",
+  "author": {
+    "name": "iamzifei"
+  },
+  "repository": "https://github.com/iamzifei/linkedin-article-publisher-skill",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "articles",
+    "markdown",
+    "publishing",
+    "professional"
+  ],
+  "dependencies": {
+    "mcp": ["playwright"],
+    "python": ["Pillow", "pyobjc-framework-Cocoa"]
+  },
+  "platforms": ["macos"]
+}

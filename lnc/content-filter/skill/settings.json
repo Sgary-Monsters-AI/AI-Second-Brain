@@ -1,0 +1,9 @@
+{
+  "skills": {
+    "content-eval": {
+      "name": "content-eval",
+      "description": "内容评估专家 - 评估社交媒体内容质量，基于6维度评分系统给出专业建议",
+      "skillFile": "skills/content-evaluation.md"
+    }
+  }
+}

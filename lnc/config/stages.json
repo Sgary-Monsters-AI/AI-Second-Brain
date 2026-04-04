@@ -1,0 +1,32 @@
+{
+  "version": "v1.0",
+  "description": "内容生产流水线阶段配置",
+  "stages": {
+    "filter": {
+      "name": "筛选阶段",
+      "enabled": true,
+      "description": "评估选题/素材是否值得创作",
+      "entry": "/content-filter",
+      "gate": "评分≥9.0 + 无红线"
+    },
+    "creation": {
+      "name": "创作阶段",
+      "enabled": true,
+      "description": "产出符合品牌标准的原创内容",
+      "entry": "/chinese-viral-writer-main",
+      "gate": "自评≥9.0 + RLHF记录 + 去AI味"
+    },
+    "storage": {
+      "name": "保存阶段",
+      "enabled": true,
+      "description": "将内容正确归档到内容生产系统",
+      "gate": "文件已保存到正确位置"
+    },
+    "output": {
+      "name": "输出阶段",
+      "enabled": true,
+      "description": "生成发布就绪的平台版本",
+      "gate": "镜头检查通过 + 传播素材就绪"
+    }
+  }
+}

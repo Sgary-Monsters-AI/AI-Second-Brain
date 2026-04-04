@@ -1,0 +1,38 @@
+# 用户本地进化数据（不应提交到仓库）
+.viral-writer-evolution.yaml
+.viral-writer-patterns.md
+
+# 环境变量（包含 API Key，不应提交）
+.env
+.env.local
+.env.*.local
+
+# 生成的图片和输出目录
+images/
+generated-images/
+output/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 打包产物
+*.skill
+dist/
+
+.playwright-mcp/
+
+# ===== articles =====
+/articles/*
+!/articles/.gitkeep
+
+# ===== brands =====
+/brands/*
+!/brands/_template.md
+!/brands/README.md
+!/brands/dankoe.md

@@ -1,0 +1,32 @@
+{
+  "version": "v1.0",
+  "name": "预设销售版本",
+  "description": "定义可售卖的完整包版本",
+  "presets": {
+    "留学专家版": {
+      "stages": ["filter", "creation", "storage", "output"],
+      "platforms": ["wechat", "x", "linkedin"],
+      "brands": ["roland-wayne"],
+      "skills": ["content-filter", "chinese-viral-writer-main", "humanizer-zh", "find-topic"]
+    },
+    "健康布道版": {
+      "stages": ["filter", "creation", "storage", "output"],
+      "platforms": ["x", "linkedin"],
+      "brands": ["roland-med"],
+      "skills": ["content-filter", "chinese-viral-writer-main", "humanizer-zh", "find-topic"]
+    },
+    "商业IP版": {
+      "stages": ["filter", "creation", "storage", "output"],
+      "platforms": ["wechat", "x", "xiaohongshu", "linkedin"],
+      "brands": ["dankoe"],
+      "skills": ["content-filter", "chinese-viral-writer-main", "humanizer-zh", "find-topic"]
+    },
+    "基础版": {
+      "stages": ["filter", "creation", "storage"],
+      "platforms": ["wechat"],
+      "brands": [],
+      "skills": ["content-filter", "chinese-viral-writer-main"]
+    }
+  },
+  "activePreset": "留学专家版"
+}

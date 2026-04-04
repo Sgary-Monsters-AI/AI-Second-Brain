@@ -1,0 +1,26 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# User data (keep templates, ignore actual data)
+.claude/data/*.md
+!.claude/data/.gitkeep
+
+# Local environment
+.env
+.env.local
+
+# Logs
+*.log
