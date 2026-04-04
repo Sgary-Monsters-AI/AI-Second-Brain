@@ -185,7 +185,16 @@ main() {
     echo -e "  新版本: ${GREEN}v${NEW_VERSION}${NC}"
     print_separator
     echo ""
-    log_info "查看更新日志: cat CHANGELOG.md"
+
+    # 显示最新的更新日志 (截取 CHANGELOG 中最新的一个块)
+    if [ -f "CHANGELOG.md" ]; then
+        echo -e "${CYAN}📜 最新更新内容 (v${NEW_VERSION})：${NC}"
+        # 打印匹配 ## [ 版本 的下一个直到下一个 ## 之间的内容
+        awk '/^## \[/{if (p) exit; p=1; print; next} p' CHANGELOG.md
+    else
+        log_info "查看更新日志: cat CHANGELOG.md"
+    fi
+
     echo ""
 }
 

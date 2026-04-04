@@ -57,6 +57,15 @@ if [ ! -d "$INSTALL_DIR/.git" ]; then
     echo ""
     echo -e "${GREEN}✓ 安装成功！当前版本: v${VERSION}${NC}"
     echo ""
+
+    # 显示最新的更新日志 (截取 CHANGELOG 中最新的一个块)
+    if [ -f "CHANGELOG.md" ]; then
+        echo -e "${CYAN}📜 最新版本说明 (v${VERSION})：${NC}"
+        # 打印匹配 ## [ 版本 的下一个直到下一个 ## 之间的内容
+        awk '/^## \[/{if (p) exit; p=1; print; next} p' CHANGELOG.md
+        echo ""
+    fi
+
     echo -e "${YELLOW}👉 使用方法：${NC}"
     echo "1. 运行: cd ~/AI-Second-Brain"
     echo "2. 运行: claude"
