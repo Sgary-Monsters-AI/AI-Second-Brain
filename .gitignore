@@ -33,5 +33,12 @@ config.local.yml
 /dev-tools/
 /.claude/skills/generate-changelog.md
 
+# Obsidian 配置（用户本地）
+.obsidian/
+
+# 敏感文风 DNA 数据（个人品牌资产，不公开）
+lnc/chinese-viral-writer-main/brands/李蕾文风DNA编码报告.md
+lnc/chinese-viral-writer-main/brands/Grace文风DNA完整编码.md
+
 # 用户安装时自动生成的文件
 使用指南.md
