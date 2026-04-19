@@ -71,7 +71,7 @@
 
 ### 1. 本地测试
 ```bash
-cd ~/AI-Second-Brain-Template
+cd ~/AI-Admin-System-Template
 
 # 测试版权检查脚本
 ./scripts/check-copyright.sh
@@ -85,7 +85,7 @@ claude
 ```bash
 git init
 git add .
-git commit -m "init: AI Second Brain System v1.0
+git commit -m "init: AI Admin System v1.0
 
 Copyright (c) 2026 Roland Wayne
 Licensed under Dual License: AGPL-3.0 (Personal) / Commercial (Business)
@@ -101,7 +101,7 @@ Features:
 ```bash
 # 在 GitHub 创建新仓库
 # 然后:
-git remote add origin https://github.com/YOURUSERNAME/AI-Second-Brain.git
+git remote add origin https://github.com/YOURUSERNAME/AI-Admin-System.git
 git branch -M main
 git push -u origin main
 ```
@@ -109,7 +109,7 @@ git push -u origin main
 ### 4. GitHub 设置
 - [ ] 设置仓库为 "Template repository"（可选）
 - [ ] 添加 topics: `claude-code`, `ai-productivity`, `knowledge-management`
-- [ ] 添加描述: "基于 Claude Code 的 AI 第二大脑系统 | AI Second Brain System"
+- [ ] 添加描述: "基于 Claude Code 的 AI 管理系统 | AI Admin System"
 - [ ] 添加网站链接: https://rolandwayne.com
 
 ---

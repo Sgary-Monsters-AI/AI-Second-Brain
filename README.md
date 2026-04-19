@@ -1,8 +1,8 @@
 <!--
-  AI Second Brain System
+  AI Admin System
   Copyright (c) 2026 Roland Wayne (https://rolandwayne.com)
 
-  This file is part of the AI Second Brain System.
+  This file is part of the AI Admin System.
   Licensed under Dual License: AGPL-3.0 (Personal) / Commercial (Business)
 
   Personal Use: Free under AGPL-3.0
@@ -12,12 +12,12 @@
   See LICENSE file for complete terms.
 -->
 
-# AI 第二大脑系统
+# AI 管理系统
 
 > **Copyright (c) 2026 [Roland Wayne](https://rolandwayne.com)**
 > 基于 Claude Code 的个人 AI 基础设施模板
 
-一个可复用的 AI 第二大脑系统模板，帮助你管理知识、创作内容、追踪任务，让 AI 成为你的数字分身。
+一个可复用的 AI 管理系统模板，帮助你管理知识、创作内容、追踪任务，让 AI 成为你的数字分身。
 
 ---
 
@@ -67,7 +67,7 @@
 ## 目录结构
 
 ```
-AI-Second-Brain/
+AI-Admin-System/
 ├── 📁 记忆库/               # 三层记忆架构
 │   ├── 📁 强制规则/          # 系统行为约束（6个核心规则）
 │   ├── 📁 语义记忆/          # 方法论、最佳实践（用户自行填充）
@@ -116,7 +116,7 @@ npm install -g @anthropic-ai/claude-code
 
 ```bash
 # 克隆到你的主目录
-git clone https://github.com/yourusername/AI-Second-Brain.git ~/AI-Second-Brain
+git clone https://github.com/yourusername/AI-Admin-System.git ~/AI-Admin-System
 
 # 或使用 GitHub 模板功能
 # 点击 "Use this template" → 创建你的仓库 → 克隆到本地
@@ -132,7 +132,7 @@ git clone https://github.com/yourusername/AI-Second-Brain.git ~/AI-Second-Brain
 
 ```bash
 # 进入目录
-cd ~/AI-Second-Brain
+cd ~/AI-Admin-System
 
 # 启动 Claude Code
 claude

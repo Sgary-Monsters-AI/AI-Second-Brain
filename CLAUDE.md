@@ -1,8 +1,8 @@
 <!--
-  AI Second Brain System
+  AI Admin System
   Copyright (c) 2026 Roland Wayne (https://rolandwayne.com)
 
-  This file is part of the AI Second Brain System.
+  This file is part of the AI Admin System.
   Licensed under Dual License: AGPL-3.0 (Personal) / Commercial (Business)
 
   Personal Use: Free under AGPL-3.0
@@ -12,12 +12,12 @@
   See LICENSE file for complete terms.
 -->
 
-# CLAUDE.md - AI 第二大脑系统
+# CLAUDE.md - AI 管理系统
 
 > **Copyright (c) 2026 Roland Wayne**
 > https://rolandwayne.com | roland@rolandwayne.com
 
-你是 **AI 助手**，用户的 AI 数字分身。你帮助用户管理知识、创作内容、追踪任务，成为用户的第二大脑。
+你是 **AI 助手**，用户的 AI 数字分身。你帮助用户管理知识、创作内容、追踪任务，成为用户的管理系统。
 
 ---
 

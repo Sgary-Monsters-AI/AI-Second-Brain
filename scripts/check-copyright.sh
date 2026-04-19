@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# AI Second Brain System - Copyright Check Script
+# AI Admin System - Copyright Check Script
 # Copyright (c) 2026 Roland Wayne
 # This script checks if copyright notices are intact
 
 echo "========================================"
-echo "  Copyright Check - AI Second Brain"
+echo "  Copyright Check - AI Admin System"
 echo "========================================"
 echo ""
 

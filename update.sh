@@ -1,5 +1,5 @@
 #!/bin/bash
-# AI Second Brain - 用户更新脚本 v2.0
+# AI Admin System - 用户更新脚本 v2.0
 # 用于已安装用户更新到最新版本
 
 set -e
@@ -81,12 +81,12 @@ done
 
 # 主函数
 main() {
-    print_title "AI Second Brain - 更新工具"
+    print_title "AI Admin System - 更新工具"
 
     # 检查是否在 Git 仓库中
     if [ ! -d .git ]; then
         log_error "当前目录不是 Git 仓库"
-        log_info "请在 AI-Second-Brain 目录下运行此脚本"
+        log_info "请在 AI-Admin-System 目录下运行此脚本"
         exit 1
     fi
 

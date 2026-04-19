@@ -1,5 +1,5 @@
 #!/bin/bash
-# AI Second Brain - 智能安装与更新程序
+# AI Admin System - 智能安装与更新程序
 # Copyright (c) 2026 Sgary-Monsters-AI
 
 set -e
@@ -12,11 +12,11 @@ CYAN='\033[0;36m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-REPO_URL="https://github.com/Sgary-Monsters-AI/AI-Second-Brain.git"
-INSTALL_DIR="$HOME/AI-Second-Brain"
+REPO_URL="https://github.com/Sgary-Monsters-AI/AI-Admin-System.git"
+INSTALL_DIR="$HOME/AI-Admin-System"
 
 echo -e "${BLUE}========================================${NC}"
-echo -e "${BLUE}  🧠 AI Second Brain 系统助手${NC}"
+echo -e "${BLUE}  🧠 AI 管理系统助手${NC}"
 echo -e "${BLUE}========================================${NC}"
 echo ""
 
@@ -71,7 +71,7 @@ if [ ! -d "$INSTALL_DIR/.git" ]; then
     fi
 
     echo -e "${YELLOW}👉 使用方法：${NC}"
-    echo "1. 运行: cd ~/AI-Second-Brain"
+    echo "1. 运行: cd ~/AI-Admin-System"
     echo "2. 运行: claude"
     echo "3. 在 Claude Code 中输入: 启动 AI 助手"
     exit 0
@@ -161,4 +161,4 @@ if [ -f "CHANGELOG.md" ]; then
 fi
 
 echo ""
-echo "继续探索您的第二大脑吧！"
+echo "继续探索您的管理系统吧！"

@@ -1,6 +1,6 @@
 # 版权说明 | Copyright Notice
 
-**AI Second Brain System**
+**AI Admin System**
 Copyright (c) 2026 Roland Wayne
 https://rolandwayne.com | roland@rolandwayne.com
 

@@ -1,6 +1,6 @@
 # 商业使用授权
 
-**AI Second Brain System**
+**AI Admin System**
 Copyright (c) 2026 Roland Wayne
 
 ---
@@ -120,7 +120,7 @@ Copyright (c) 2026 Roland Wayne
 
 邮件内容：
 ```
-主题：AI Second Brain 商业授权咨询
+主题：AI Admin System 商业授权咨询
 
 您好 Roland，
 

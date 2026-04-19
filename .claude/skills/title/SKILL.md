@@ -1,8 +1,8 @@
 <!--
-  AI Second Brain System
+  AI Admin System
   Copyright (c) 2026 Roland Wayne (https://rolandwayne.com)
 
-  This file is part of the AI Second Brain System.
+  This file is part of the AI Admin System.
   Licensed under Dual License: AGPL-3.0 (Personal) / Commercial (Business)
 
   Personal Use: Free under AGPL-3.0
